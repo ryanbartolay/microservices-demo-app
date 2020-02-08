@@ -10,9 +10,9 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.example.microservice</groupId>
-  <artifactId>gateway</artifactId>
+  <artifactId>auth-service</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>spring-boot-microservices-gateway</name>
+  <name>spring-boot-microservices-auth-service</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>
@@ -28,10 +28,6 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
